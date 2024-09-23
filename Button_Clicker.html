@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Button_Clicker.css">
+    <script defer src="Button_Clicker.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="taskbar">
+            
+        <div class="dojonary">   
+            <label for="taskbar">Dojonary</label>
+        </div>
+            
+        <div class="searchbar">
+            <label for="taskbar">Search</label>
+        </div>   
+        
+
+            <button class="loginbutton" onclick="changetext(this)">Login</button>
+
+        </div>
+    
+
+<div class=" def1">
+    
+    <div class="ninja" p>ninja</p>
+    
+    
+    <div class="noun" p><i>noun</i></p>
+    
+    
+    <div class="plural" p>Plural:<i> ninjas</i></p>
+
+    
+        <button class="likesbutton1" onclick="alert('You have liked this')">13 Likes</button>
+
+    </div>
+        
+        
+        
+        
+
+
+    
+    <p class="sentence1">A practitioner skilled in the <span class="underline">Japanese</span> art of <span class="underline">ninjutsu</span></p>
+
+</div>
+
+<div class="def2">
+
+    <div class="ninja" p>ninja</p>
+    
+    
+        <div class="noun" p><i>noun</i></p>
+        
+        
+        <div class="plural" p>Plural:<i> ninjas</i></p>
+    
+        <button class="likesbutton1" onclick="alert('You have liked this')">37 Likes</button>
+
+        <p class="sentence2">A <span class="underline">programmer</span> who breaks down problems with <span class="underline">zen</span>-like focus</p>
+</div>
+        </div>
+<div class="mydef">
+    
+    <p>Dojonary is defined by <span class="you">YOU</span></p>
+
+    <button class="defbutton" onclick="hide(this)">Add definition</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+    let modal = document.getElementById("modal")
+
+    function openmodal() {
+        modal.classList.add("modal.active")
+    }
+</script>
+
+</body>
+</html>

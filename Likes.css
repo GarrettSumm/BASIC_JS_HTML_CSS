@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 150vh;
+    background-color: grey;
+}
+#header{
+    height: 70px;
+    width: 700px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 350px;
+}
+.header2{
+    margin-left: 600px;
+}
+.neil{
+    background-color: white;
+    height: 150px;
+    width: 600px;
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+    margin-left: 500px;
+    border: 5px black solid;
+}
+#count1{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    
+
+}
+.button1{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.nichole{
+    background-color: white;
+    height: 150px;
+    width: 600px;
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+    margin-left: 500px;
+    border: 5px black solid;
+    margin-top: 20px;
+}
+#count2{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 0px
+}
+.button2{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.jim{
+    background-color: white;
+    height: 150px;
+    width: 600px;
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+    margin-left: 500px;
+    border: 5px black solid;
+    margin-top: 20px;
+}
+#count3{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 0px
+}
+.button3{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.underline{
+    text-decoration: underline;
+    color: blue;
+}
+.avatar{
+    background-color: white;
+    height: 300px;
+    width: 150px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+
+}
+
+
+
